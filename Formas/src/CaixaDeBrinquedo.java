@@ -1,5 +1,6 @@
 
 public class CaixaDeBrinquedo {
+	//handler all my classes
 		private Forma brinquedos[];//Create a array of toys, forma(interface) type
 		private int iterador;
 		private int adc = 0;
