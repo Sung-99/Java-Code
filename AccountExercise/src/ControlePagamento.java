@@ -16,11 +16,11 @@ public class ControlePagamento {
     
     
     public ControlePagamento(){
-        this.controlePagamento = new Pagavel[10];
+        this.controlePagamento = new Pagavel[10];// declaring my Interface object
         this.posicao = 0;
         this.armazenaPosi = 0;
     }
- 
+    //add method
     public void adicionaItemPagavel(Pagavel item){
         if(posicao<10){
             controlePagamento[posicao] = item;
@@ -65,6 +65,7 @@ public class ControlePagamento {
         return tot;
     
     }
+    //remove item method
     public void remover(Pagavel z){
         for (int x = 0; x < controlePagamento.length; x++){
             if(controlePagamento[x] instanceof Empregado){
@@ -75,6 +76,7 @@ public class ControlePagamento {
             }
         }
     }
+    //show my employer in a list
     public void listarFunc(int dia, int mes){//Lista funcionarios
           for(Pagavel item : controlePagamento){
               if(item != null){
@@ -87,7 +89,7 @@ public class ControlePagamento {
               }
           }
     }
-    
+    //Calculate taxes
     public double calculaValorAPagarContas(int dia, int mes){
         double retorno = 0;
         
@@ -98,7 +100,7 @@ public class ControlePagamento {
         }
         return retorno;
     }
-    
+    //Calculate a wage
     public double calculaValorAPagar(int dia, int mes){
         double retorno = 0;
         
