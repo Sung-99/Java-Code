@@ -2,7 +2,7 @@
 public class Teste {
 
 	public static void main(String[] args) {
-		//Creating my new object from Relogio class
+		//Creating my new object from Relogio class*
 		Relogio relogio = new Relogio();
 		
 		for(int x = 0; x <= 23; x++){
