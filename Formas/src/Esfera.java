@@ -2,7 +2,7 @@
 public class Esfera extends Tridimensional implements Forma{
 	double r;
 	
-	//Sphere
+	//Sphere*
 		public Esfera(String nome, double r) {
 		
 		}
