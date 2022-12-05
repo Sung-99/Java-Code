@@ -3,13 +3,13 @@ public class Relogio {
 		private Contador hora;
 		private Contador minuto;
 		private boolean formato;
-		
+		//Creating a timer with hours and minute
 		public Relogio() {
 			this.hora = new Contador(24);
 			this.minuto = new Contador(60);		
 			this.formato=true;
 		}
-		
+		//reset when my timer finish with 60 min
 		public void TicTac() {
 			minuto.contar();
 			if(minuto.getValor()==0) {
@@ -40,7 +40,7 @@ public class Relogio {
 		public void setFormato(boolean formato) {
 			this.formato = formato;
 		}
-		
+		//show method
 		public String exibe() {
 			String retorno = "";
 			if (formato) {//12horas
