@@ -9,7 +9,7 @@ public class Teste {
 			for(int y = 0; y <= 59; y++) {
 				//Making my clock work with TIC TAC method
 				relogio.TicTac();
-				//Show
+				//Showw
 				System.out.println(relogio.exibe());
 			}
 		}
