@@ -40,7 +40,7 @@ public class Relogio {
 		public void setFormato(boolean formato) {
 			this.formato = formato;
 		}
-		//show method
+		//show methodd
 		public String exibe() {
 			String retorno = "";
 			if (formato) {//12horas
