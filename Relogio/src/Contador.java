@@ -3,7 +3,7 @@ public class Contador {
 	private int valor;
 	private int limite;
 
-	//Timer
+	//Timer*
 	public Contador(int limite ) {
 		valor = 0;
 		this.limite = limite;
