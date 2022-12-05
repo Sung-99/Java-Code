@@ -1,7 +1,7 @@
 
 public class Quadrado extends Bidimensional implements Forma{
 	private double l;
-	//square
+	//square*
 	public Quadrado(String nome, double l) {
 		super(nome);
 		this.l = l;
