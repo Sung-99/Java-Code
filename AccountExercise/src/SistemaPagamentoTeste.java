@@ -12,9 +12,13 @@ import java.util.Scanner;
  */
 public class SistemaPagamentoTeste {
     public static void main(String[] args) {
+        //Create an add object from my ControlePagamento class
        ControlePagamento adc = new ControlePagamento();
+        
+        //Input from user in my IN variable
         Scanner in = new Scanner(System.in);
-
+        
+        //Create a serie of object from my classes and adding them in my adc object
        Assalariado f = new Assalariado(1,"Vitorrrrr","hugo",98789);
        adc.adicionaItemPagavel(f);
        Comissionado c = new Comissionado(3,"Bocaoooo","da Silva",12412);
@@ -26,6 +30,7 @@ public class SistemaPagamentoTeste {
        adc.adicionaItemPagavel(new Titulo(25,01,1800));
        adc.adicionaItemPagavel(new Concessionaria(01,8,3940));
        adc.adicionaItemPagavel(new Concessionaria(20,07,2987));
+        //Show in a ordered/unodered list
        adc.listarFunc(07,1);
        System.out.println("Valor total pago aos empregados e: " + 
                adc.valorPagoTotalEmpregado(20, 04));
@@ -38,6 +43,7 @@ public class SistemaPagamentoTeste {
        Assalariado fff = new Assalariado(1,"Vitor","hugo",98789);
        adc.adicionaItemPagavel(cc);
        adc.adicionaItemPagavel(c);
+        //Test my remove method
        adc.remover(f);
       
        adc.adicionaItemPagavel(fff);
