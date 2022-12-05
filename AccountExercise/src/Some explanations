@@ -1,0 +1,8 @@
+In this files, i have a exercise which i work with extends classs, interface classes, handling with object arrays and object method arrays
+
+
+>>In my ControleDePagamento class, i handle all of my class
+>>the Upper and abstract class is Pagavel
+>>Empregado is my second abstract class, and in it has a extended from my Pagavel class
+>>Conta is my third abstract class and int it has extend from my pagavel class too
+>>My main class is SistemaPagamentoTeste 

@@ -1,6 +1,6 @@
 
 public class Teste {
-	
+	//Handler all my classes
 	public static void main(String[]	args) {
 	
 		CaixaDeBrinquedo c = new CaixaDeBrinquedo();

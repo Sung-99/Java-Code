@@ -5,7 +5,7 @@ public abstract class Tridimensional {
 	public String getNome() {
 		return nome;
 	}
-
+	//three-dimensional*
 	public void setNome(String nome) {
 		this.nome = nome;
 	}

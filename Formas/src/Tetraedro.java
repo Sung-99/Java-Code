@@ -1,7 +1,7 @@
 import java.lang.Math;
 public class Tetraedro extends Tridimensional implements Forma{
 		double aresta;
-		
+// 		tetrahedron*
 		public Tetraedro(String nome, double aresta) {
 			
 		}

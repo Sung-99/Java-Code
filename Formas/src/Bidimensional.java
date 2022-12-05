@@ -1,7 +1,7 @@
 
 public abstract class Bidimensional {
 	private String nome;
-	
+	//abstract class for my objects
 	public Bidimensional(String nome) {
 		this.nome = nome;
 	}
