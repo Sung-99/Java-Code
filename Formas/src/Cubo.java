@@ -1,7 +1,7 @@
 
 public class Cubo extends Tridimensional implements Forma{
 	double aresta;
-	//----cube
+	//cube
 	public Cubo(String nome, double aresta) {
 		
 	}
