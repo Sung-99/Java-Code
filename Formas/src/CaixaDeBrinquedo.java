@@ -24,5 +24,5 @@ public class CaixaDeBrinquedo {
 			
 				brinquedos[adc] = x;
 				adc++;
-		}
+		}//
 }
