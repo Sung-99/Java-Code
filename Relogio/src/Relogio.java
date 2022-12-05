@@ -3,7 +3,7 @@ public class Relogio {
 		private Contador hora;
 		private Contador minuto;
 		private boolean formato;
-		//Creating a timer with hours and minute
+		//Creating a timer with hours and minute*
 		public Relogio() {
 			this.hora = new Contador(24);
 			this.minuto = new Contador(60);		
