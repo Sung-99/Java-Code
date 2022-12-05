@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="400.0"  xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.logica.Controller">
+    <GridPane layoutY="100.0" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: BLACK;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Button fx:id="plus" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="+" />
+        <Button fx:id="minus" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="500.0" prefWidth="500.0" text="-" GridPane.columnIndex="1" />
+        <Button fx:id="multiplication" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="*" GridPane.columnIndex="2" />
+        <Button fx:id="division" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="/" GridPane.columnIndex="3" />
+        <Button fx:id="one" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="1" GridPane.rowIndex="1" />
+        <Button fx:id="two" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button fx:id="three" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="500.0" prefWidth="500.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Button fx:id="four" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="4" GridPane.rowIndex="2" />
+        <Button fx:id="five" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button fx:id="six" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button fx:id="seven" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="7" GridPane.rowIndex="3" />
+        <Button fx:id="eight" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button fx:id="nine" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Button fx:id="zero" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Button fx:id="clear" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="C" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Button fx:id="equals" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+    </GridPane>
+    <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" prefHeight="100.0" prefWidth="400.0" text="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+</AnchorPane>
