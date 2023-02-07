@@ -1,0 +1,1 @@
+Jogo de baralho com 2 players
